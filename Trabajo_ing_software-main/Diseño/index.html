@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tempo Arriendos | Arriendo de mobiliario, vajilla y mantelería para eventos</title>
+  <meta name="description" content="Más de 20 años arrendando mobiliario, vajilla, cristalería y mantelería para matrimonios, asados y eventos en Santiago y la Quinta Región.">
+  <meta name="theme-color" content="#FFC20E">
+  <link rel="icon" href="img/logos/Logo Tempo Eventos Oficial.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=12">
+</head>
+<body class="home">
+
+  <!-- ===== HEADER (CTA de cotizar siempre visible) ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="Tempo Arriendos, inicio">
+        <img src="img/logos/Logo Tempo Eventos Oficial.svg" alt="Tempo Arriendos" class="brand__logo">
+        <span class="brand__text">Tempo<span>Arriendos</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="index.html" aria-current="page">Inicio</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="kits.html">Kits</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <a href="#" class="btn btn--primary header__cta js-wa" data-msg="Hola Tempo Arriendos, quiero cotizar un evento.">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+        Cotizar
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page page--inicio">
+    <!-- ===== HERO: foto panorámica de un evento REAL del cliente ===== -->
+    <section class="hero">
+      <div class="hero__media" id="heroSlider">
+        <div class="hero__track">
+          <img src="img/hero/fondo.jpg" alt="Montaje real de Tempo Arriendos en un evento" class="hero__img" fetchpriority="high">
+          <img src="img/hero/fondo 2.jpg" alt="Montaje de mobiliario para eventos Tempo Arriendos" class="hero__img" loading="eager">
+          <img src="img/hero/fondo 3.jpg" alt="Decoración y equipamiento de eventos Tempo Arriendos" class="hero__img" loading="lazy">
+          <img src="img/hero/fondo 4.jpg" alt="Celebración equipada por Tempo Arriendos" class="hero__img" loading="lazy">
+        </div>
+      </div>
+      <div class="container hero__content">
+        <span class="tag">Más de 20 años celebrando contigo</span>
+        <h1>Todo lo que tu evento necesita, <mark>listo para celebrar</mark></h1>
+        <p>Mobiliario, vajilla, cristalería y mantelería en arriendo para matrimonios, asados, cumpleaños y eventos institucionales en Santiago y la Quinta Región.</p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary btn--lg js-wa" data-msg="Hola Tempo Arriendos, quiero cotizar un evento.">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            Cotiza por WhatsApp
+          </a>
+          <a href="catalogo.html" class="btn btn--light btn--lg">Ver catálogo</a>
+          <a href="kits.html" class="btn btn--light btn--lg">Ver kits sugeridos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de confianza -->
+    <section class="stats" aria-label="Datos de la empresa">
+      <div class="container stats__grid">
+        <div class="stat"><strong>+20</strong><span>años de trayectoria</span></div>
+        <div class="stat"><strong>RM + V</strong><span>Santiago y Quinta Región</span></div>
+        <div class="stat"><strong>Directo</strong><span>cotización personalizada por WhatsApp</span></div>
+        <div class="stat"><strong>Instituciones</strong><span>universidades, colegios y municipios</span></div>
+      </div>
+    </section>
+
+    <!-- ===== PREVIEW DE INSTAGRAM (Opción 4 en escritorio / Opción 2 en móvil) ===== -->
+    <section class="section section--dark ig-section" id="instagram" aria-label="Instagram @tempoeventos.cl">
+      <div class="container">
+        <div class="ig-showcase">
+          <div class="ig-showcase__notch" aria-hidden="true"><span></span></div>
+          <div class="ig-showcase__screen">
+            <iframe
+              title="Vista previa de Instagram @tempoeventos.cl"
+              src="https://www.instagram.com/tempoeventos.cl/embed"
+              loading="lazy"
+              allowtransparency="true"
+              scrolling="no"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="brand__text brand__text--light">Tempo<span>Arriendos</span></span>
+        <p>Arriendo de mobiliario y menaje para eventos desde 2006.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Pie de página">
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="kits.html">Kits</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="https://www.instagram.com/tempoeventos.cl/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <small>© <span id="year"></span> Tempo Arriendos. Fotografías de eventos reales.</small>
+    </div>
+  </footer>
+
+  <!-- ===== WhatsApp flotante ===== -->
+  <a href="#" class="wa-float js-wa" data-msg="Hola Tempo Arriendos, quiero cotizar un evento." aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+    <span class="wa-float__label">¿Cotizamos?</span>
+  </a>
+
+  <!-- ===== Lightbox para ver fotos en alta resolución ===== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Cerrar">×</button>
+    <figure class="lightbox__fig">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <p class="lightbox__hint">Haz clic en la imagen para acercar</p>
+  </div>
+
+  <!-- Íconos SVG -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.23 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48a.92.92 0 0 0-.67.31c-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.02 2.57.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 10.41 3.29 3.3-1.41 1.41L11 13.24V6h2v6.41Z"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><path fill="currentColor" d="M10 2a8 8 0 0 1 6.32 12.9l5.39 5.4-1.41 1.4-5.4-5.39A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm1 2v3h3v2h-3v3H9v-3H6V9h3V6h2Z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6Zm9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></symbol>
+  </svg>
+
+  <script src="js/data.js?v=12"></script>
+  <script src="js/main.js?v=12"></script>
+</body>
+</html>

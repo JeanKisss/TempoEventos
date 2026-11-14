@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <filter id="shadow-purple" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.18" />
+    </filter>
+    <radialGradient id="grad-purple" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#791eb8" />
+      <stop offset="85%" stop-color="#7118b0" />
+      <stop offset="100%" stop-color="#64119e" />
+    </radialGradient>
+  </defs>
+
+  <!-- Círculo base -->
+  <circle cx="256" cy="256" r="244" fill="url(#grad-purple)" filter="url(#shadow-purple)" />
+
+  <!-- Anillo interior blanco -->
+  <circle cx="256" cy="256" r="208" fill="none" stroke="#ffffff" stroke-width="8" />
+
+  <!-- Tipografía principal "espaci" -->
+  <g transform="translate(342, 274) skewX(-12)">
+    <text x="0" y="0" font-family="&#39;Liberation Sans&#39;, &#39;Nimbus Sans&#39;, Arial, Helvetica, sans-serif" font-weight="900" font-size="95" letter-spacing="-4.8" text-anchor="end" fill="#ffffff">espaci</text>
+  </g>
+
+  <!-- Ícono indicador horizontal ("o") -->
+  <g transform="translate(389, 250)">
+    <!-- Aro exterior blanco -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#ffffff" stroke-width="7.5" />
+    <!-- Círculo interior blanco -->
+    <circle cx="0" cy="0" r="25" fill="#ffffff" />
+    <!-- Aguja morada apuntando a la derecha -->
+    <path d="M -3,-5 L 25,-3 L 25,3 L -3,5 Z" fill="#7118b0" />
+    <circle cx="-3" cy="0" r="5" fill="#7118b0" />
+  </g>
+
+  <!-- Línea horizontal y subtítulo "tempo" -->
+  <line x1="186" y1="302" x2="238" y2="302" stroke="#ffffff" stroke-width="2.6" />
+  <g transform="translate(244, 309) skewX(-13)">
+    <text x="0" y="0" font-family="&#39;Liberation Sans&#39;, &#39;Nimbus Sans&#39;, Arial, Helvetica, sans-serif" font-weight="600" font-size="25" letter-spacing="-0.2" fill="#ffffff">tempo</text>
+  </g>
+</svg>
